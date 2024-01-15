@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cotrole De Smartphone Storm</title>
+</head>
+<body onload="readAll()">
+
+    <main>
+        <div class="container">
+            <div class="form_container">
+                <form class="create_form">
+                    <select name="modelo" id="modelo" class="modelo">
+                        <option>Modelo</option>
+                        <option>iPhone 8 Plus</option>
+                        <option>iPhone XR</option>
+                        <option>iPhone 11</option>
+                        <option>iPhone 11 Pro</option>
+                        <option>iPhone 11 Pro Max</option>
+                        <option>iPhone 12</option>
+                        <option>iPhone 12 Mini</option>
+                        <option>iPhone 12 Pro</option>
+                        <option>iPhone 12 Pro Max</option>
+                        <option>iPhone 13</option>
+                        <option>iPhone 13 Mini</option>
+                        <option>iPhone 13 Pro</option>
+                        <option>iPhone 13 Pro max</option>
+                        <option>iPhone 14</option>
+                        <option>iPhone 14 Pro</option>
+                        <option>iPhone 14 Pro Max</option>
+                        <option>iPhone 14 Plus</option>
+                        <option>iPhone 15</option>
+                        <option>iPhone 15 Pro</option>
+                        <option>iPhone 15 Pro Max</option>
+                        <option>iPhone 15 Plus</option>
+                        <option>----------------</option>
+
+                        <option>iPhone 11 Lacrado</option>
+                        <option>iPhone 12 Lacrado</option>
+                        <option>iPhone 13 Lacrado</option>
+                        <option>iPhone 14 Lacrado</option>
+                        <option>iPhone 15 Lacrado</option>
+                        <option>iPhone 14 Lacrado</option>
+                        <option>iPhone 14 Pro Lacrado</option>
+                        <option>iPhone 14 Pro Max Lacrado</option>
+                        <option>iPhone 15 Pro Lacrado</option>
+                        <option>iPhone 15 Pro Max Lacrado</option>
+                        <option>iPhone 15 Plus Lacrado</option>
+                        <option>----------------</option>
+
+                        <option>Apple Watch S7 40mm</option>
+                        <option>Apple Watch S7 41mm</option>
+                        <option>Apple Watch S7 42mm</option>
+                        <option>Apple Watch S7 43mm</option>
+                        <option>Apple Watch S7 44mm</option>
+                        <option>Apple Watch S7 45mm</option>
+                        
+                        <option>Apple Watch S8 40mm</option>
+                        <option>Apple Watch S8 41mm</option>
+                        <option>Apple Watch S8 42mm</option>
+                        <option>Apple Watch S8 43mm</option>
+                        <option>Apple Watch S8 44mm</option>
+                        <option>Apple Watch S8 45mm</option>
+
+                        <option>Apple Watch S9 40mm</option>
+                        <option>Apple Watch S9 41mm</option>
+                        <option>Apple Watch S9 42mm</option>
+                        <option>Apple Watch S9 43mm</option>
+                        <option>Apple Watch S9 44mm</option>
+                        <option>Apple Watch S9 45mm</option>
+
+                        <option>Apple Watch Ultra </option>
+                        <option>Apple Watch Ultra 49mm</option>
+                        <option>Apple Watch Ultra 2</option>
+
+                        <option>Apple Watch SE 40mm</option>
+                        <option>Apple Watch SE 41mm</option>
+                        <option>Apple Watch SE 42mm</option>
+                        <option>Apple Watch SE 43mm</option>
+                        <option>Apple Watch SE 44mm</option>
+                        <option>----------------</option>
+
+                        <option>MacBook Pro M1 16"</option>
+                        <option>MacBook Pro M2 16"</option>
+                        <option>MacBook Pro M1 14"</option>
+                        <option>MacBook Pro M2 14"</option>
+                        <option>MacBook Pro M1 13"</option>
+                        <option>MacBook Pro M2 13"</option>
+                        <option>MacBook Air M1 13"</option>
+                        <option>MacBook Air M2 13"</option>
+                        <option>MacBook Air M2 15"</option>
+                        <option>----------------</option>
+
+                        <option>Apple Pencil 1</option>
+                        <option>Apple Pencil 2</option>
+                        <option>----------------</option>
+                    
+                        <option>Xiaomi Redmi A2</option>
+                        <option>Xiaomi 11 Lite</option>
+                        <option>Xiaomi 12</option>
+                        <option>Xiaomi 12s Ultra</option>
+                        <option>Xiaomi 12 Lite</option>
+                        <option>Xiaomi 13 Lite</option>
+                        <option>Xiaomi 13 5G</option>
+                        <option>Xiaomi 13 Pro</option>
+                        <option>Xiaomi 13 Ultra</option>
+                        <option>Redmi 13C</option>
+                        <option>Redmi 13T</option>
+                        <option>Redmi Note 12</option>
+                        <option>Redmi Note 12s</option>
+                        <option>Redmi Note 12 Pro 4G</option>
+                        <option>Redmi Note 12 Pro 5G</option>
+                        <option>Redmi Note 12 Pro Plus</option>
+                        <option>Poco M5s</option>
+                        <option>Poco X5</option>
+                        <option>Poco X5 Pro</option>
+                        <option>Poco F5</option>
+                        <option>Poco F5 Pro</option>
+                        <option>Poco X6</option>
+                        <option>Poco X6 Pro</option>
+                        <option>Poco C40</option>
+                        <option>Poco M4 5G</option>
+                        <option>Poco M4 Pro 4G</option>
+                        <option>Poco M4 Pro 5G</option>
+                        <option>Realmi C55</option>
+                    </select>
+
+                    <select name="cor" id="cor" class="cor">
+                        <option>Cor</option>
+                        <option>Branco</option>
+                        <option>Preto</option>
+                        <option>Azul</option>
+                        <option>Verde</option>
+                        <option>Vermelho</option>
+                        <option>Gold</option>
+                        <option>Amarelo</option>
+                        <option>Lilás</option>
+                        <option>Roxo</option>
+                        <option>Natural</option>
+                    </select>
+
+                    <select name="armazenamento" id="armazenamento" class="armazenamento">
+                        <option>Armazenamento</option>
+                        <option>32GB</option>
+                        <option>64GB</option>
+                        <option>128GB</option>
+                        <option>256GB</option>
+                        <option>512GB</option>
+                        <option>1T</option>
+                    </select>
+
+                    <input type="text" placeholder="Imei" class="imei">
+
+                    <select name="estoque" id="estoque" class="estoque">
+                        <option>Estoque</option>
+                        <option>ES1</option>
+                        <option>ES2</option>
+                        <option>ES3</option>
+                        <option>ES4</option>
+                        <option>ESFort</option>
+                        <option>ESXiaomi</option>
+                        <option>Outros</option>
+                    </select>
+
+                    <input type="text" placeholder="Custo" class="custo">
+                    <input type="date" placeholder="Data de Recebimento" class="recebimento">
+                    
+                    <select name="status" id="status" class="status">
+                        <option>Status</option>
+                        <option>Pendente</option>
+                        <option>Pago</option>
+                        <option>Devolvido</option>
+                        <option>Troca</option>
+                    </select>
+
+                    <button type="button" class="create" onclick="add()">Adicionar</button>
+                </form>
+
+                <form class="update_form">
+                    <input type="text" hidden class="update_id">
+                    <select name="modelo" id="modelo" class="u_modelo">
+                        <option>Modelo</option>
+                        <option>iPhone 8 Plus</option>
+                        <option>iPhone XR</option>
+                        <option>iPhone 11</option>
+                        <option>iPhone 11 Pro</option>
+                        <option>iPhone 11 Pro Max</option>
+                        <option>iPhone 12</option>
+                        <option>iPhone 12 Mini</option>
+                        <option>iPhone 12 Pro</option>
+                        <option>iPhone 12 Pro Max</option>
+                        <option>iPhone 13</option>
+                        <option>iPhone 13 Mini</option>
+                        <option>iPhone 13 Pro</option>
+                        <option>iPhone 13 Pro max</option>
+                        <option>iPhone 14</option>
+                        <option>iPhone 14 Pro</option>
+                        <option>iPhone 14 Pro Max</option>
+                        <option>iPhone 14 Plus</option>
+                        <option>iPhone 15</option>
+                        <option>iPhone 15 Pro</option>
+                        <option>iPhone 15 Pro Max</option>
+                        <option>iPhone 15 Plus</option>
+                    </select>
+
+                    <select name="cor" id="cor" class="u_cor">
+                        <option>Cor</option>
+                        <option>Branco</option>
+                        <option>Preto</option>
+                        <option>Azul</option>
+                        <option>Verde</option>
+                        <option>Vermelho</option>
+                        <option>Gold</option>
+                        <option>Amarelo</option>
+                        <option>Lilás</option>
+                        <option>Roxo</option>
+                        <option>Natural</option>
+                    </select>
+
+                    <select name="armazenamento" id="armazenamento" class="u_armazenamento">
+                        <option>Armazenamento</option>
+                        <option>32GB</option>
+                        <option>64GB</option>
+                        <option>128GB</option>
+                        <option>256GB</option>
+                        <option>512GB</option>
+                        <option>1T</option>
+                    </select>
+
+                    <input type="text" placeholder="Imei" class="u_imei">
+
+                    <select name="estoque" id="estoque" class="u_estoque">
+                        <option>Estoque</option>
+                        <option>ES1</option>
+                        <option>ES2</option>
+                        <option>ES3</option>
+                        <option>ES4</option>
+                        <option>ESFort</option>
+                        <option>ESXiaomi</option>
+                        <option>Outros</option>
+                    </select>
+
+                    <input type="text" placeholder="Custo" class="u_custo">
+                    <input type="date" placeholder="Data de Recebimento" class="u_recebimento">
+                    
+                    <select name="status" id="status" class="u_status">
+                        <option>Status</option>
+                        <option>Pendente</option>
+                        <option>Pago</option>
+                        <option>Devolvido</option>
+                        <option>Troca</option>
+                    </select>
+                    <button type="button" onclick="update()" class="edit">Editar</button>
+                </form>
+                
+                <div class="wrapper">
+                    <button class="add_btn" onclick="createForm()">Add +</button>
+                    <table class="table">
+                        <thead>
+                            <th>Modelo</th>
+                            <th>Cor</th>
+                            <th>GB</th>
+                            <th>IMEI</th>
+                            <th>Estoque</th>
+                            <th>Custo</th>
+                            <th>Data</th>
+                            <th>Status</th>
+                        </thead>
+                        <tbody class="table_data">
+
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+
+        <div class="financeiro">
+            
+        </div>
+    </main>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
